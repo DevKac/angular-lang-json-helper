@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Angular Json Lang Helper</title>
+		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/files.js"></script>
+    <script type="text/javascript" src="js/view.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+  	<div class="container">
+  		<h4>
+  			Please choose folder with your json lang files to view and edit. Don't forget to Save your changes after you are done!
+  		</h4>
+  		<input type="file" id="inputSelectPath" webkitdirectory directory multiple/>
+  		<div class="table-responsive" id="langItemsTableHolder">
+			  <table class="table" id="langItemsTable">
+			    ...
+			  </table>
+			</div>
+			<div class="row small-space-after" style="text-align: right;" id="langButtonsHolder">
+				<button type="button" class="btn btn-secondary" onclick="viewSave()">Save</button>
+			</div>
+  	</div>
+  </body>
+</html>
